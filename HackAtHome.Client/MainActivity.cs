@@ -9,11 +9,11 @@ namespace HackAtHome.Client
     [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+        // Codigo de Luis Beltran
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
             var edtCorreo = FindViewById<EditText>(Resource.Id.edtCorreo);
@@ -61,4 +61,3 @@ namespace HackAtHome.Client
         }
     }
 }
-
